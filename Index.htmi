@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مبل‌شویی و موکت‌شویی در منزل معجزه</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Vazir', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://placehold.co/1200x600/007bff/white?text=مبل‌شویی+معجزه') no-repeat center center/cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        .service-card {
+            transition: transform 0.3s;
+            border: none;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        .gallery-img {
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .gallery-img:hover {
+            transform: scale(1.05);
+        }
+        .contact-btn {
+            background: #25D366;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px;
+        }
+        .contact-btn:hover {
+            background: #128C7E;
+            color: white;
+        }
+        .social-icon {
+            font-size: 24px;
+            color: #E1306C;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- هدر -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://placehold.co/100x100/007bff/white?text=M" alt="لوگو معجزه" class="logo"> مبل‌شویی معجزه
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">خدمات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">گالری</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">درباره ما</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">تماس</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- بنر اصلی -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="display-4 fw-bold">مبل و موکت شما مثل روز اول می‌شود!</h1>
+            <p class="lead">با بهترین مواد شوینده و متدهای روز دنیا</p>
+            <a href="#contact" class="btn btn-primary btn-lg mt-3">درخواست خدمات</a>
+        </div>
+    </section>
+
+    <!-- خدمات -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">خدمات ما</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card service-card h-100">
+                        <img src="https://placehold.co/300x200/007bff/white?text=مبل‌شویی" class="card-img-top" alt="مبل‌شویی">
+                        <div class="card-body">
+                            <h5 class="card-title">مبل‌شویی تخصصی</h5>
+                            <p class="card-text">شستشوی انواع مبل راحتی، کلاسیک، چرم و الگانس با بهترین مواد</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card h-100">
+                        <img src="https://placehold.co/300x200/28a745/white?text=موکت‌شویی" class="card-img-top" alt="موکت‌شویی">
+                        <div class="card-body">
+                            <h5 class="card-title">موکت‌شویی حرفه‌ای</h5>
+                            <p class="card-text">شستشوی موکت با دستگاه‌های پیشرفته و خشک کردن سریع</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card service-card h-100">
+                        <img src="https://placehold.co/300x200/fd7e14/white?text=ضدعفونی" class="card-img-top" alt="ضدعفونی">
+                        <div class="card-body">
+                            <h5 class="card-title">ضدعفونی و خوشبوکنندگی</h5>
+                            <p class="card-text">ضدعفونی کامل و خوشبو کردن محیط با مواد استاندارد</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- گالری -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">گالری نمونه کارها</h2>
+            <div class="row g-4">
+                <div class="col-md-4"><img src="https://placehold.co/400x300/007bff/white?text=قبل+و+بعد+۱" class="img-fluid gallery-img" alt="نمونه کار ۱"></div>
+                <div class="col-md-4"><img src="https://placehold.co/400x300/28a745/white?text=قبل+و+بعد+۲" class="img-fluid gallery-img" alt="نمونه کار ۲"></div>
+                <div class="col-md-4"><img src="https://placehold.co/400x300/fd7e14/white?text=قبل+و+بعد+۳" class="img-fluid gallery-img" alt="نمونه کار ۳"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- درباره ما -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>درباره معجزه</h2>
+                    <p>ما با سال‌ها تجربه در زمینه شستشوی تخصصی مبل و موکت، آماده‌ایم تا با استفاده از بهترین مواد و دستگاه‌های روز دنیا، منزل شما را به مکانی تمیز و بهداشتی تبدیل کنیم.</p>
+                    <ul>
+                        <li>استفاده از مواد شوینده کاملاً گیاهی و بی‌ضرر</li>
+                        <li>دارای مجوزهای بهداشتی و محیط زیستی</li>
+                        <li>پرسنل مجرب و حرفه‌ای</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://placehold.co/500x400/6f42c1/white?text=تیم+معجزه" alt="تیم معجزه" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تماس -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 class="text-center mb-5">تماس با ما</h2>
+            <div class="row text-center">
+                <div class="col-md-6 mb-4">
+                    <h4>از طریق واتس‌اپ</h4>
+                    <a href="https://wa.me/989112183611" class="contact-btn"><i class="fab fa-whatsapp"></i> ۰۹۱۱۲۱۸۳۶۱۱</a>
+                    <a href="https://wa.me/989222803611" class="contact-btn"><i class="fab fa-whatsapp"></i> ۰۹۲۲۲۸۰۳۶۱۱</a>
+                </div>
+                <div class="col-md-6">
+                    <h4>شبکه‌های اجتماعی</h4>
+                    <a href="https://instagram.com/moblshooe.mojeze" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <p>آی‌دی: @moblshooe.mojeze</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer class="py-4 bg-primary text-white text-center">
+        <div class="container">
+            <p>تمام حقوق این سایت متعلق به مبل‌شویی و موکت‌شویی در منزل معجزه می‌باشد.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
